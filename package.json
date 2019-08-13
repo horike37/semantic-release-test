@@ -12,6 +12,9 @@
   "devDependencies": {
     "semantic-release": "^15.13.19"
   },
+  "publishConfig": {
+    "tag": "0.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/horike37/semantic-release-test.git"
