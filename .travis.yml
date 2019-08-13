@@ -13,7 +13,6 @@ install:
 jobs:
   include:
     - stage: release
-      node_js: lts/*
       deploy:
         provider: script
         skip_cleanup: true
