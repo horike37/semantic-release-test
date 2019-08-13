@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release pre && npm publish --tag=next && semantic-release post"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^15.13.19"
   },
+  "release": {
+    "branch": "master"
+  },
   "publishConfig": {
-    "tag": "0.2.0"
+    "tag": "next"
   },
   "repository": {
     "type": "git",
